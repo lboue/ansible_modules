@@ -302,7 +302,7 @@ Examples
               name: Test Platform
             state: present
 
-        - name: Create platform within Netbox with only required information
+        - name: Create platform within Netbox with other fields
           netbox_platform:
             netbox_url: http://netbox.local
             netbox_token: thisIsMyToken
